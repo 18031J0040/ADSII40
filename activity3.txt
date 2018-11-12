@@ -1,0 +1,88 @@
+//18031j0040
+Module 3 - Analysis of Algorithms
+Activity 3
+
+
+N + 1~N
+
+
+1 + 1/N
+=(N+1/N)
+=1/N
+=1
+
+
+(1 + 1/N )(1 + 2/N )
+=(N+1/N)(N+2/N)
+=(N/N)(N/N)
+=1*1
+=1
+
+2N^3 - 15 N^2 + N
+=N^3-N^2+N
+=N(N^2+N+1)
+=N(N^2+N)
+=N(N^2)
+=N^3
+
+
+lg(2N )/lg N
+=lg(2N)-lg(N)
+=lg(N)
+
+
+lg(N^2 + 1) / lg N
+=lg(N^2)*lg1/lgN
+=lg(N^2)/lg(N)
+=lg(N)
+
+ACTIVITY 4:
+
+Code-1:     int count = 0;
+            for(int i = 0; i < N; i++){
+                count++;
+            }
+			
+			ANS:N
+           
+
+Code-2:     int sum = 0;
+            if(sum == 0){
+                sum++;
+			}
+			
+			ANS:1
+
+Code-3:     for(int i = N; i > 0; i < N/2){
+            int sum = 0;
+			}
+			
+			ANS:1
+
+Code-4:     for(int i = 0; i < N; i++){
+                for(int j = 0; j < N; j++){
+                    System.out.println(“Hello”);
+                }
+            }
+			
+			ANS:N^2
+        
+Code-5:     for(int i = 0; i < N; i++){
+                for(int j = 0; j < N; j = j * 2){
+                    System.out.println(“Hello”);
+                }
+            }
+			
+			ANS:LOG N
+          
+Code-6:     public int fibonacci(int number) {
+			if (number <= 1) {
+                       return number;
+                 } else {
+                           return fibonacci(number - 1) + fibonacci(number - 2);
+                 }
+			}
+			
+			ANS:N
+
+
